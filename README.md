@@ -88,3 +88,11 @@ and put it in `part1.txt` for your actual problem once you get the example
 returning the correct output. From there, all days are a repeat of creating the
 template folders/files from plop and inserting your given inputs. Enjoy your
 Advent of Code!
+
+## Notes
+
+- Make sure to make your repository private if you plan on pushing to GitHub.
+- The second part of each day is usually pretty tough so I see it as a challenge
+  to go above and beyond. If you just complete the first part you can advance to
+  the next day. I plan on going back through at the end of the event and trying
+  my hand at the second parts of the problem.
