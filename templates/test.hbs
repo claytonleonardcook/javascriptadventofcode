@@ -1,0 +1,30 @@
+import { part1, part2 } from "./index.ts";
+import { assertEquals } from "std/assert/mod.ts";
+
+const __dirname = new URL(".", import.meta.url).pathname;
+
+Deno.test("Part 1 Example", async () => {
+  const input = await Deno.readTextFile(`${__dirname}part1example.txt`);
+
+  // ! replace null with example problems correct output
+  assertEquals(part1(input), null);
+});
+
+Deno.test("Part 1", async () => {
+  const input = await Deno.readTextFile(`${__dirname}part1.txt`);
+
+  console.log(part1(input));
+});
+
+Deno.test("Part 2 Example", async () => {
+  const input = await Deno.readTextFile(`${__dirname}part2example.txt`);
+
+  // ! replace null with example problems correct output
+  assertEquals(part2(input), null);
+});
+
+Deno.test("Part 2", async () => {
+  const input = await Deno.readTextFile(`${__dirname}part2.txt`);
+
+  console.log(part2(input));
+});

@@ -1,0 +1,13 @@
+{
+  "name": "adventofcode2023",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "deno test --parallel --allow-read",
+    "plop": "plop"
+  },
+  "devDependencies": {
+    "plop": "^4.0.0"
+  }
+}
