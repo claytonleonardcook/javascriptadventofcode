@@ -4,7 +4,7 @@ export default function (plop) {
         prompts: [{
             type: 'number',
             name: 'day',
-            message: 'What day are starting?'
+            message: 'What day are you starting?'
         }],
         actions: [{
             type: 'add',
